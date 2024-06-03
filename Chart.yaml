@@ -1,0 +1,4 @@
+apiVersion: v2
+name: exercise-api-gradle-service-dev
+description: A Helm chart for deploying exercise-api-gradle-service-dev
+version: 1.0

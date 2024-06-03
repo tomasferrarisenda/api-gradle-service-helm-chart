@@ -1,0 +1,10 @@
+environment: stage
+
+deployment:
+  image:  
+    tag: 6
+  replicas: 1
+
+  labels:
+    environment: stage
+    app: exercise-api-gradle-service-stage

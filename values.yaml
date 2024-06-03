@@ -1,0 +1,11 @@
+system: exercise
+
+service: api-gradle
+
+deployment:
+  image:
+    repository: tferrari92/api-gradle-service
+    
+  labels:
+    system: exercise
+    service: api-gradle

@@ -1,0 +1,10 @@
+environment: prod
+
+deployment:
+  image:  
+    tag: 6
+  replicas: 1
+
+  labels:
+    environment: prod
+    app: exercise-api-gradle-service-prod
