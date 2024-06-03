@@ -28,5 +28,5 @@ spec:
           env:
           - name: DB
             value: exercise-mariadb-service-dev-service.exercise-dev.svc.cluster.local
-          - name: RUNNING_ENV
-            value: minikube
+          # - name: RUNNING_ENV
+          #   value: minikube
