@@ -2,7 +2,7 @@ environment: dev
 
 deployment:
   image:  
-    tag: test
+    tag: test2
   replicas: 1
 
   labels:
