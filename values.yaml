@@ -2,6 +2,8 @@ system: exercise
 
 service: api-gradle
 
+port: 8080
+
 deployment:
   image:
     repository: tferrari92/api-gradle-service

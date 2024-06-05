@@ -24,9 +24,7 @@ spec:
         - name: {{ .Values.system }}-{{ .Values.service }}-{{ .Values.environment }}
           image: {{ .Values.deployment.image.repository }}:{{ .Values.deployment.image.tag }}
           ports:
-            - containerPort: 8080
+            - containerPort: {{ .Values.port }}
           env:
           - name: DB
-            value: exercise-mariadb-service-dev-service.exercise-dev.svc.cluster.local
-          # - name: RUNNING_ENV
-          #   value: minikube
+            value: {{ .Values.system }}-mariadb-service-{{ .Values.environment }}-service.{{ .Values.system }}-{{ .Values.environment }}.svc.cluster.local
